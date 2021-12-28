@@ -34,6 +34,11 @@ const initialState = {
 export const cartReducer = (state = initialState, action) => {
   switch (action.type) {
     case types.ADD_TO_CART: {
+      //   const newCart = {
+      //     ...state,
+      //     cart: [...state.cart, action.payload],
+      //   };
+      console.log('action');
       return state;
     }
 

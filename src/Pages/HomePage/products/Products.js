@@ -1,12 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { addToCart } from '../../../redux/actions/fruitAction';
 
 const Products = () => {
-  const addToCart = (pd) => {};
-
   const fruits = useSelector((state) => {
     return state.products;
   });
+
   return (
     <div>
       <h1>product</h1>
